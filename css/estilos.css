@@ -1,0 +1,419 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+header {
+  background-color: #f1f1e9;
+  display: flex;
+  margin-bottom: 7px;
+}
+header nav {
+  background-color: #f1f1e9;
+  margin-left: 2rem;
+}
+header img {
+  height: 120px;
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-left: 1rem;
+}
+
+/*FOOTER*/
+footer {
+  margin-top: 15px;
+  text-align: end;
+  text-align: center;
+  background-color: #f1f1e9;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 450;
+}
+footer .redes {
+  max-width: 100%;
+  max-height: 100%;
+  height: 3%;
+  width: 3%;
+}
+
+/*PRESENTACIÓN*/
+.h2-index {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #93551e;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.descripcion {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.descripcion1 {
+  width: 30%;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #93551e;
+  font-size: xx-large;
+  text-align: center;
+  border-right: 5px #99d85f solid;
+}
+
+.descripcion2 {
+  width: 70%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+}
+
+/*INDEX*/
+.informacion {
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 2px solid #466429;
+}
+
+.sueltos {
+  background-image: url(../media/sueltos/frutos.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  background-position: center;
+}
+
+.suplementos {
+  background-image: url(../media/deporte/preworkout.jpeg);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  background-position: center;
+}
+
+.sintacc {
+  background-image: url(../media/sueltos/singluten.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  background-position: center;
+}
+
+.vegano {
+  background-image: url(../media/vegano/burger.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  background-position: center;
+}
+
+.nutricionales {
+  background-image: url(../media/natier/zinc.jpg);
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  background-position: bottom;
+}
+
+/*PAGINA PRODUCTOS*/
+.introduccion-productos {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Raleway", sans-serif;
+  padding: 55px;
+  background-color: #f1f1e9;
+}
+
+.grid-secciones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "granel  piel  vitaminas  deporte";
+  margin-bottom: 2%;
+  grid-template-rows: 250px 30px;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+}
+
+.grid-seccion {
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  font-weight: 500;
+  text-align: center;
+  align-content: center;
+  background-color: #f0f6ec;
+}
+
+/*Seccion a granel*/
+.banner-sueltos {
+  height: 300px;
+  display: flex;
+  font-family: "Urbanist", sans-serif;
+  color: #466429;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../media/banners/condimentos.jpg);
+  margin-bottom: 2%;
+}
+.banner-sueltos h1 {
+  width: 50%;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 6%;
+}
+
+/*Seccion skincare*/
+.banner-skincare {
+  height: 300px;
+  display: flex;
+  font-family: "Urbanist", sans-serif;
+  color: #466429;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../media/banners/skincare.jpg);
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.banner-skincare h1 {
+  width: 100%;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6%;
+}
+
+/*Seccion vitaminas*/
+.banner-vitaminas {
+  height: 300px;
+  display: flex;
+  font-family: "Urbanist", sans-serif;
+  color: #466429;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(../media/banners/vitaminas2.jpg);
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.banner-vitaminas h1 {
+  width: 100%;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 6%;
+}
+
+/*Seccion Deporte*/
+.banner-deporte {
+  height: 300px;
+  display: flex;
+  font-family: "Urbanist", sans-serif;
+  color: #466429;
+  background-size: cover;
+  background-position: top;
+  background-image: url(../media/banners/deportivo.jpg);
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.banner-deporte h1 {
+  width: 100%;
+  font-family: "Urbanist", sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 4%;
+}
+
+.foto-producto {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-sueltos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 500px) {
+  /*HEADER*/
+  header img {
+    height: 80px;
+    width: 100%;
+  }
+  /*BANNER*/
+  .banner {
+    height: 150px;
+  }
+  .titulo {
+    display: none;
+  }
+  /*PRESENTACIÓN*/
+  .descripcion {
+    padding-top: 0.5rem;
+  }
+  .descripcion1 {
+    display: none;
+  }
+  .descripcion2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    font-size: medium;
+    text-align: justify;
+    background-color: #f1f1e9;
+  }
+  .informacion {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .sueltos {
+    width: 70%;
+  }
+  .suplementos {
+    width: 70%;
+  }
+  .sintacc {
+    width: 70%;
+  }
+  .vegano {
+    width: 70%;
+  }
+  .nutricionales {
+    width: 70%;
+  }
+  /*PÁGINA PRODUCTOS*/
+  .introduccion-productos {
+    height: 250px;
+  }
+  .grid-secciones {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "granel   piel" "vitaminas  deporte";
+    gap: 7px 7px;
+  }
+  .banner-sueltos {
+    height: 150px;
+  }
+  .banner-sueltos h1 {
+    font-size: 3rem;
+  }
+  .banner-skincare {
+    height: 150px;
+  }
+  .banner-skincare h1 {
+    font-size: 3rem;
+    margin-left: 2%;
+  }
+  .banner-vitaminas {
+    height: 150px;
+    background-position: top;
+  }
+  .banner-vitaminas h1 {
+    font-size: 3rem;
+    align-items: flex-start;
+  }
+  .banner-deporte {
+    height: 150px;
+  }
+  .banner-deporte h1 {
+    font-size: 3rem;
+  }
+}
+/*Reset de CSS*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*Banner*/
+.banner {
+  height: 300px;
+  display: flex;
+  font-family: "Urbanist", sans-serif;
+  color: #466429;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../media/banners/banner2.jpg);
+}
+
+.titulo {
+  font-weight: 700;
+  font-size: 5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+}
+
+/*PROMOCIONES*/
+.col {
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.col img {
+  max-width: 20rem;
+  max-height: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/*CONTACTO*/
+.subtitulos {
+  color: #93551e;
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+  font-size: larger;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+
+/*SUCURSALES*/
+.sucursales {
+  font-family: "Raleway", sans-serif;
+  color: #93551e;
+  text-decoration: none;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=estilos.css.map */

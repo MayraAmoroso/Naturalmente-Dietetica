@@ -1,0 +1,77 @@
+/*PRESENTACIÓN*/
+.h2-index{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    color: #93551e;
+    font-size: xx-large;
+    text-align: center;
+}
+.descripcion{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+}
+.descripcion1{
+    width: 30%;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    color: #93551e;
+    font-size: xx-large;
+    text-align: center;
+    border-right: 5px #99d85f solid;
+}
+.descripcion2{
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+}
+/*INDEX*/
+
+.informacion{
+    font-family: "Urbanist", sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid #466429;
+}
+.sueltos{
+    background-image: url(../media/sueltos/frutos.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    background-position: center
+}
+.suplementos{
+    background-image: url(../media/deporte/preworkout.jpeg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    background-position: center
+}
+.sintacc{
+    background-image: url(../media/sueltos/singluten.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    background-position: center
+}
+.vegano{
+    background-image: url(../media/vegano/burger.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    background-position: center
+}
+.nutricionales{
+    background-image: url(../media/natier/zinc.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    background-position: bottom;
+}

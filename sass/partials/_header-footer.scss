@@ -1,0 +1,33 @@
+header{
+    background-color: #f1f1e9;
+    display: flex;
+    margin-bottom: 7px;
+    //lista de navegación
+    nav{
+        background-color: #f1f1e9;
+        margin-left: 2rem;
+    }
+    //Posicion del logo
+    img{
+        height: 120px;
+        width: 100%;
+    }
+}
+.navbar-brand{
+    margin-left: 1rem;
+}
+/*FOOTER*/
+footer{
+    margin-top: 15px;
+    text-align: end;
+    text-align: center;
+    background-color: #f1f1e9;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 450;
+    .redes{
+        max-width: 100%;
+        max-height: 100%;    
+        height: 3%;
+        width: 3%;
+    }
+}
