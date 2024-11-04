@@ -8,8 +8,7 @@
             }
             }
         img{
-            height: 80px;
-            width: 100%
+            @include tamanio (80px, 100%);
         }
     }
     /*BANNER*/

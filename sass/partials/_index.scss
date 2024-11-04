@@ -43,35 +43,30 @@
 .sueltos{
     background-image: url(../media/sueltos/frutos.jpg);
     background-size: cover;
-    height: 200px;
-    width: 100%;
+    @include tamanio (200px, 100%);
     background-position: center
 }
 .suplementos{
     background-image: url(../media/deporte/preworkout.jpeg);
     background-size: cover;
-    height: 200px;
-    width: 100%;
+    @include tamanio (200px, 100%);
     background-position: center
 }
 .sintacc{
     background-image: url(../media/sueltos/singluten.jpg);
     background-size: cover;
-    height: 200px;
-    width: 100%;
+    @include tamanio (200px, 100%);
     background-position: center
 }
 .vegano{
     background-image: url(../media/vegano/burger.jpg);
     background-size: cover;
-    height: 200px;
-    width: 100%;
+    @include tamanio (200px, 100%);
     background-position: center
 }
 .nutricionales{
     background-image: url(../media/natier/zinc.jpg);
     background-size: cover;
-    height: 200px;
-    width: 100%;
+    @include tamanio (200px, 100%);
     background-position: bottom;
 }

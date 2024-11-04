@@ -8,3 +8,8 @@ $marron: #93551e;
 $urbanist: "Urbanist", sans-serif;
 $raleway: "Raleway", sans-serif;
 $roboto: "Roboto", sans-serif;
+
+@mixin tamanio ($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}
