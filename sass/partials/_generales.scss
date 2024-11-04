@@ -54,6 +54,10 @@ form{
     align-items: center;
     font-family:$urbanist;
     text-align: center;
+    :focus{
+        border: solid $marron;
+        background-image: linear-gradient(to right top, #99d85f, #b8dd7f, #d1e3a0, #e4e9c4, #f1f1e9);
+    }
 }
 
 /*SUCURSALES*/
@@ -69,4 +73,28 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.scale-up-hor-center {
+	-webkit-animation: scale-up-hor-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-hor-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-hor-center {
+    0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+    }
+    100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    }
+}
+@keyframes scale-up-hor-center {
+    0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+    }
+    100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    }
 }
