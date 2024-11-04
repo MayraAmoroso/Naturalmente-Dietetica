@@ -371,21 +371,25 @@ form {
   .informacion {
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 0.8rem;
+  }
+  .informacion h3 {
+    font-size: 1.2rem;
   }
   .sueltos {
-    width: 70%;
+    width: 80%;
   }
   .suplementos {
-    width: 70%;
+    width: 90%;
   }
   .sintacc {
-    width: 70%;
+    width: 90%;
   }
   .vegano {
-    width: 70%;
+    width: 90%;
   }
   .nutricionales {
-    width: 70%;
+    width: 80%;
   }
   /*PÁGINA PRODUCTOS*/
   .introduccion-productos {
@@ -426,6 +430,14 @@ form {
   }
   /*PÁGINA PROMOCIONES*/
   .grid-promos {
-    grid-template-columns: 1, 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr) repeat(3, 80px);
+  }
+  .grid-promos .texto {
+    border-bottom: 1px dashed #466429;
+    border-top: 1px dashed #466429;
+  }
+  .grid-promos .galicia, .grid-promos .provincia, .grid-promos .nacion {
+    border: 1px solid #93551e;
   }
 }/*# sourceMappingURL=estilos.css.map */
