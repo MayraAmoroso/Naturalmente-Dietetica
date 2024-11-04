@@ -7,10 +7,9 @@
 
     /*BANNER*/
     .banner{
-        height: 150px;
-    }
-    .titulo{
-    display: none;
+        height: 100px;
+        h1{display: none;
+        }
     }
     /*PRESENTACIÓN*/
     .descripcion{
@@ -48,7 +47,7 @@
     }
     /*PÁGINA PRODUCTOS*/
     .introduccion-productos{
-        height: 250px;
+        height: 260px;
     }
     .grid-secciones{
         grid-template-columns: repeat(2,1fr);

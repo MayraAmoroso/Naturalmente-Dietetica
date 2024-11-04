@@ -1,6 +1,13 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*Reset de CSS*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 header {
   background-color: #f1f1e9;
   display: flex;
@@ -142,7 +149,7 @@ footer .redes {
   margin-bottom: 2%;
   grid-template-rows: 250px 30px;
   -moz-column-gap: 7px;
-       column-gap: 7px;
+  column-gap: 7px;
 }
 
 .grid-seccion {
@@ -255,99 +262,6 @@ footer .redes {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
-
-@media (max-width: 500px) {
-  /*HEADER*/
-  header img {
-    height: 80px;
-    width: 100%;
-  }
-  /*BANNER*/
-  .banner {
-    height: 150px;
-  }
-  .titulo {
-    display: none;
-  }
-  /*PRESENTACIÓN*/
-  .descripcion {
-    padding-top: 0.5rem;
-  }
-  .descripcion1 {
-    display: none;
-  }
-  .descripcion2 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: 100%;
-    font-size: medium;
-    text-align: justify;
-    background-color: #f1f1e9;
-  }
-  .informacion {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .sueltos {
-    width: 70%;
-  }
-  .suplementos {
-    width: 70%;
-  }
-  .sintacc {
-    width: 70%;
-  }
-  .vegano {
-    width: 70%;
-  }
-  .nutricionales {
-    width: 70%;
-  }
-  /*PÁGINA PRODUCTOS*/
-  .introduccion-productos {
-    height: 250px;
-  }
-  .grid-secciones {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "granel   piel" "vitaminas  deporte";
-    gap: 7px 7px;
-  }
-  .banner-sueltos {
-    height: 150px;
-  }
-  .banner-sueltos h1 {
-    font-size: 3rem;
-  }
-  .banner-skincare {
-    height: 150px;
-  }
-  .banner-skincare h1 {
-    font-size: 3rem;
-    margin-left: 2%;
-  }
-  .banner-vitaminas {
-    height: 150px;
-    background-position: top;
-  }
-  .banner-vitaminas h1 {
-    font-size: 3rem;
-    align-items: flex-start;
-  }
-  .banner-deporte {
-    height: 150px;
-  }
-  .banner-deporte h1 {
-    font-size: 3rem;
-  }
-}
-/*Reset de CSS*/
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-}
-
 /*Banner*/
 .banner {
   height: 300px;
@@ -417,3 +331,89 @@ form {
   justify-content: center;
   align-items: center;
 }/*# sourceMappingURL=estilos.css.map */
+
+@media (max-width: 500px) {
+  /*HEADER*/
+  header img {
+    height: 80px;
+    width: 100%;
+  }
+  /*BANNER*/
+  .banner {
+    height: 100px;
+  }
+  .banner h1 {
+    display: none;
+  }
+  /*PRESENTACIÓN*/
+  .descripcion {
+    padding-top: 0.5rem;
+  }
+  .descripcion1 {
+    display: none;
+  }
+  .descripcion2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    font-size: medium;
+    text-align: justify;
+    background-color: #f1f1e9;
+  }
+  .informacion {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .sueltos {
+    width: 70%;
+  }
+  .suplementos {
+    width: 70%;
+  }
+  .sintacc {
+    width: 70%;
+  }
+  .vegano {
+    width: 70%;
+  }
+  .nutricionales {
+    width: 70%;
+  }
+  /*PÁGINA PRODUCTOS*/
+  .introduccion-productos {
+    height: 260px;
+  }
+  .grid-secciones {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "granel   piel" "vitaminas  deporte";
+    gap: 7px 7px;
+  }
+  .banner-sueltos {
+    height: 150px;
+  }
+  .banner-sueltos h1 {
+    font-size: 3rem;
+  }
+  .banner-skincare {
+    height: 150px;
+  }
+  .banner-skincare h1 {
+    font-size: 3rem;
+    margin-left: 2%;
+  }
+  .banner-vitaminas {
+    height: 150px;
+    background-position: top;
+  }
+  .banner-vitaminas h1 {
+    font-size: 3rem;
+    align-items: flex-start;
+  }
+  .banner-deporte {
+    height: 150px;
+  }
+  .banner-deporte h1 {
+    font-size: 3rem;
+  }
+}
