@@ -31,7 +31,7 @@
         width: 100%;
         font-size: medium;
         text-align: justify;
-        background-color: #f1f1e9;
+        background-color: $color-header;
     }
     .informacion{
         padding-left: 5px;
@@ -90,5 +90,10 @@
         h1{
         font-size: 3rem;
         }
+    }
+    /*PÁGINA PROMOCIONES*/
+    .grid-promos{
+        grid-template-columns: 1, 1fr;
+        
     }
 }

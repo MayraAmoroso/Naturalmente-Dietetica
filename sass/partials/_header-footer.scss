@@ -1,10 +1,10 @@
 header{
-    background-color: #f1f1e9;
+    background-color: $color-header;
     display: flex;
     margin-bottom: 7px;
     //lista de navegación
     nav{
-        background-color: #f1f1e9;
+        background-color: $color-header;
         margin-left: 2rem;
     }
     //Posicion del logo
@@ -21,8 +21,8 @@ footer{
     margin-top: 15px;
     text-align: end;
     text-align: center;
-    background-color: #f1f1e9;
-    font-family: "Urbanist", sans-serif;
+    background-color: $color-header;
+    font-family: $urbanist;
     font-weight: 450;
     .redes{
         max-width: 100%;

@@ -2,79 +2,8 @@
 @import "./partials/header-footer";
 @import "./partials/index";
 @import "./partials/productos";
-@import "./partials/zmedia-q";
+@import "./partials/generales";
+@import "./partials/media-q";
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-/*Reset de CSS*/
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-/*Banner*/
-.banner {
-    height: 300px;
-    display: flex;
-    font-family: "Urbanist", sans-serif;
-    color: #466429;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../media/banners/banner2.jpg)
-}
-.titulo{
-    font-weight: 700;
-    font-size: 5rem;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 30px;
-}
-/*PROMOCIONES*/
-.col{
-    font-family: "Urbanist", sans-serif;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    img{
-    max-width: 20rem;
-    max-height: 20rem;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    }
-}
-
-/*CONTACTO*/
-.subtitulos{
-    color: #93551e;
-    text-align: center;
-    font-family: "Urbanist", sans-serif;
-    font-size: larger;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: "Urbanist", sans-serif;
-    text-align: center;
-}
-
-/*SUCURSALES*/
-.sucursales{
-    font-family: "Raleway", sans-serif;
-    color:#93551e;
-    text-decoration: none;
-    text-align: center;
-    font-size: larger;
-    font-weight:bold
-}   
-.mapa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}

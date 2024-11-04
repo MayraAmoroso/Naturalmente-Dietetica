@@ -1,8 +1,8 @@
 /*PRESENTACIÓN*/
 .h2-index{
-    font-family: "Urbanist", sans-serif;
+    font-family: $urbanist;
     font-weight: 700;
-    color: #93551e;
+    color: $marron;
     font-size: xx-large;
     text-align: center;
 }
@@ -14,12 +14,12 @@
 }
 .descripcion1{
     width: 30%;
-    font-family: "Urbanist", sans-serif;
+    font-family: $urbanist;
     font-weight: 700;
-    color: #93551e;
+    color: $marron;
     font-size: xx-large;
     text-align: center;
-    border-right: 5px #99d85f solid;
+    border-right: 5px $verde-claro solid;
 }
 .descripcion2{
     width: 70%;
@@ -31,14 +31,14 @@
 /*INDEX*/
 
 .informacion{
-    font-family: "Urbanist", sans-serif;
+    font-family: $urbanist;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    border: 2px solid #466429;
+    border: 2px solid $verde-oscuro;
 }
 .sueltos{
     background-image: url(../media/sueltos/frutos.jpg);

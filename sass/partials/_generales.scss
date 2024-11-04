@@ -1,0 +1,72 @@
+/*Reset de CSS*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*Banner*/
+.banner {
+    height: 300px;
+    display: flex;
+    font-family:$urbanist;
+    color:$verde-oscuro;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../media/banners/banner2.jpg)
+}
+.titulo{
+    font-weight: 700;
+    font-size: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+/*PROMOCIONES*/
+
+.grid-promos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 250px 100px;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.texto{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:$urbanist;
+}
+
+/*CONTACTO*/
+.subtitulos{
+    color:$marron;
+    text-align: center;
+    font-family:$urbanist;
+    font-size: larger;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:$urbanist;
+    text-align: center;
+}
+
+/*SUCURSALES*/
+.sucursales{
+    font-family:$raleway;
+    color:$marron;
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    font-weight:bold
+}   
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
