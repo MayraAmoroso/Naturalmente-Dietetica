@@ -1,13 +1,20 @@
 @media (max-width:500px){
     /*HEADER*/
-    header img{
-        height: 80px;
-        width: 100%
+    header{
+        nav {
+            width: 200px;
+            .container-fluid{
+                --bs-gutter-x: 0px;
+            }
+            }
+        img{
+            height: 80px;
+            width: 100%
+        }
     }
-
     /*BANNER*/
     .banner{
-        height: 100px;
+        height: 130px;
         h1{display: none;
         }
     }
