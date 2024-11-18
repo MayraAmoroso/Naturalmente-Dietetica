@@ -69,13 +69,13 @@
     }
     .banner-sueltos{
         height: 150px;
-        h1{
+        h2{
         font-size: 3rem;
         }
     }
     .banner-skincare{
         height: 150px;
-        h1{
+        h2{
         font-size: 3rem;
         margin-left: 2%;
         }
@@ -83,14 +83,109 @@
     .banner-vitaminas{
         height: 150px;
         background-position: top;
-        h1{
+        h2{
         font-size: 3rem;
         align-items: flex-start;
         }
     }
     .banner-deporte{
         height: 150px;
+        h2{
+        font-size: 3rem;
+        }
+    }
+    /*PÁGINA PROMOCIONES*/
+    .grid-promos{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr) repeat(3,80px);
+        .texto{
+            border-bottom: 1px dashed $verde-oscuro;
+            border-top: 1px dashed $verde-oscuro; 
+        }
+        .galicia{
+            border: 1px solid $marron;
+        }
+        .nacion{
+            @extend .galicia;
+        }
+        .provincia{
+            @extend .galicia;
+        }
+    }
+}
+@media (min-width: 501px) and (max-width:950px){
+    /*BANNER*/
+    .banner{
+        height: 150px;
         h1{
+            font-size: 3rem;
+        }
+    }
+    /*PRESENTACIÓN*/
+    .descripcion{
+        padding-top: 0.5rem;
+        .descripcion1{
+            font-size: 1.8rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .descripcion2{
+            padding-left: 1rem;
+            padding-right: 1rem;
+            width: 100%;
+            font-size: 1rem;
+            background-color: $color-header;
+        }
+    }
+    /*PÁGINA PRODUCTOS*/
+    .introduccion-productos{
+        height: 200px;
+        background-color: rgb(247, 245, 236);
+    }
+    .grid-secciones{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas: 
+        "granel   piel"
+        "vitaminas  deporte";
+        gap: 7px 7px;
+        img{
+            display: none;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .banner-sueltos{
+        height: 150px;
+        h2{
+        font-size: 3.5rem;
+        margin-left: 7%;
+        }
+    }
+    .banner-skincare{
+        height: 150px;
+        h2{
+        font-size: 3rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 2%;
+        }
+    }
+    .banner-vitaminas{
+        height: 150px;
+        background-position: bottom;
+        h2{
+        font-size: 2.7rem;
+        align-items: flex-end;
+        }
+    }
+    .banner-deporte{
+        height: 150px;
+        h2{
         font-size: 3rem;
         }
     }
