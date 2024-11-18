@@ -106,13 +106,14 @@
             border: 1px solid $marron;
         }
         .nacion{
-            @extend .galicia;
+            border: 1px solid $marron;
         }
         .provincia{
-            @extend .galicia;
+            border: 1px solid $marron;
         }
     }
 }
+
 @media (min-width: 501px) and (max-width:950px){
     /*BANNER*/
     .banner{
@@ -201,10 +202,10 @@
             border: 1px solid $marron;
         }
         .nacion{
-            @extend .galicia;
+            border: 1px solid $marron;
         }
         .provincia{
-            @extend .galicia;
+            border: 1px solid $marron;
         }
     }
 }

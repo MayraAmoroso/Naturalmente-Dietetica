@@ -452,7 +452,13 @@ form :focus {
     border-bottom: 1px dashed #466429;
     border-top: 1px dashed #466429;
   }
-  .grid-promos .galicia, .grid-promos .provincia, .grid-promos .nacion {
+  .grid-promos .galicia {
+    border: 1px solid #93551e;
+  }
+  .grid-promos .nacion {
+    border: 1px solid #93551e;
+  }
+  .grid-promos .provincia {
     border: 1px solid #93551e;
   }
 }
@@ -529,5 +535,23 @@ form :focus {
   }
   .banner-deporte h2 {
     font-size: 3rem;
+  }
+  /*PÁGINA PROMOCIONES*/
+  .grid-promos {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr) repeat(3, 80px);
+  }
+  .grid-promos .texto {
+    border-bottom: 1px dashed #466429;
+    border-top: 1px dashed #466429;
+  }
+  .grid-promos .galicia {
+    border: 1px solid #93551e;
+  }
+  .grid-promos .nacion {
+    border: 1px solid #93551e;
+  }
+  .grid-promos .provincia {
+    border: 1px solid #93551e;
   }
 }/*# sourceMappingURL=estilos.css.map */
